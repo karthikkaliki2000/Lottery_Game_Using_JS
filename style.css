@@ -1,0 +1,221 @@
+body{
+
+}
+
+#container{
+  
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap;
+     
+}
+
+#heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap;
+}
+
+.box{
+    width: 120px;
+    height: 60px;
+    background-color: rgb(209, 206, 23);
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 1.2rem;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlightbox{
+    border: 2px solid red;
+}
+
+.winbox{
+   
+    background-color: rgb(56, 192, 51);
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.2rem;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#btn-value{
+   color: rgb(217, 202, 231);
+   background-color: rgb(51, 54, 207);
+   border-radius: 5px;
+   border-style: none;
+   margin: 5px;
+   font-size: 1.5rem;
+   padding: 0rem 0.9rem;
+
+}
+
+#btn-value:hover{
+    color: rgb(217, 202, 231);
+    background-color: rgb(88, 90, 197);
+    border-radius: 5px;
+    border-style: none;
+    margin: 5px;
+    font-size: 1.5rem;
+ 
+    cursor: pointer;
+ 
+ }
+ 
+
+ @media(max-width:480px){
+    #container{
+       
+        width: 95%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         flex-wrap: wrap;
+    }
+    
+    .box{
+        width: 70px;
+        height: 30px;
+        background-color: rgb(209, 206, 23);
+        border-radius: 3px;
+        margin: 3px;
+        font-size: 0.7rem;
+        color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #result{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 0.9rem;
+    }
+    #btn-value{
+        color: rgb(217, 202, 231);
+        background-color: rgb(51, 54, 207);
+        border-radius: 5px;
+        border-style: none;
+        margin: 5px;
+        font-size: 0.9rem;
+        padding: 0rem 0.6rem;
+     
+     }
+
+
+     #btn-value:hover{
+        color: rgb(217, 202, 231);
+        background-color: rgb(88, 90, 197);
+        border-radius: 5px;
+        border-style: none;
+        margin: 5px;
+        
+        font-size: 0.9rem;
+     
+        cursor: pointer;
+     
+     }
+
+     .winbox{
+   
+        background-color: rgb(56, 192, 51);
+        color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
+
+
+ }
+
+
+
+ @media(max-width:340px){
+    #container{
+        
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         flex-wrap: wrap;
+    }
+    
+    .box{
+        width: 50px;
+        height: 30px;
+        background-color: rgb(209, 206, 23);
+        border-radius: 3px;
+        margin: 2px;
+        font-size: 0.5rem;
+        color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #result{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 0.6rem;
+    }
+
+    #btn-value{
+        color: rgb(217, 202, 231);
+        background-color: rgb(51, 54, 207);
+        border-radius: 5px;
+        border-style: none;
+        margin: 5px;
+        font-size: 0.7rem;
+        padding: 0rem 0.6rem;
+     
+     }
+
+     #btn-value:hover{
+        color: rgb(217, 202, 231);
+        background-color: rgb(88, 90, 197);
+        border-radius: 5px;
+        border-style: none;
+        margin: 5px;
+        
+        font-size: 0.7rem;
+     
+        cursor: pointer;
+     
+     }
+
+     .winbox{
+   
+        background-color: rgb(56, 192, 51);
+        color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+
+
+ }
